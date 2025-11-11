@@ -43,30 +43,28 @@ https://templatemo.com/tm-569-edu-meeting
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
-                                <li class="scroll-to-section"><a href="Userhome.aspx" class="active">Home</a></li>
+                                <li><a href="Userhome.aspx" class="active">Home</a></li>
                                 <li><a href="About.aspx">About</a></li>
-                                <li><a href="admission.aspx">Admission</a></li>
-                                
-                                <li>
+                                <li><a href="AdmissionForm.aspx">Admission</a></li>
+                               
+                               <%-- <li>
                                     <a href="javascript:void(0)">Gallary</a>
                                   <%--  <ul class="sub-menu">
                                         <li><a href="Userhome.aspx">Photo Gallary</a></li>
                                         <li><a href="Userhome.aspx"> Video Gallary</a></li>
 
-                                    </ul>--%>
-                                </li>
+                                    </ul>
+                                </li>--%>
 
 
                                 <li class="has-sub">
-                                    <a href="javascript:void(0)">Facilities</a>
+                                    <a href="Userhome.aspx">View</a>
                                     <ul class="sub-menu">
-                                        <li><a href="Userhome.aspx">sports</a></li>
+                                        <li><a href="viewstudent.aspx">Student</a></li>
                                        <%-- <li><a href="Userhome.aspx">Library</a></li>--%>
-                                        <li><a href="Userhome.aspx">smart Class Rooms</a></li>
-
-                                        <li><a href="Userhome.aspx">Computer lab</a></li>
-
-                                        <li><a href="Userhome.aspx">Transpotation</a></li>
+                                        <%--<li><a href="Userhome.aspx">smart Class Rooms</a></li>--%>
+                                        <li><a href="ViewTeacher.aspx">Teacher</a></li>
+                                        <li><a href="ViewTimeTable.aspx">Time Table</a></li>
 
                                     </ul>
                                 </li>

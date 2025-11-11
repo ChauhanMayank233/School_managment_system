@@ -32,7 +32,7 @@ namespace School_managment_system
         }
         protected void BindCourse()
         {
-            string query = "SELECT Photo,Subject FROM Addcourse";
+            string query = "SELECT * FROM Add_course";
             using (SqlCommand cmd = new SqlCommand(query, con))
             {
 

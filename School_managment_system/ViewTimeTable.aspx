@@ -116,15 +116,7 @@
 
     <div class="container">
         <h2>Time Table</h2>
-        <asp:GridView ID="GridView1" runat="server" CssClass="gridview" AutoGenerateColumns="false">
-            <Columns>
-                <asp:BoundField DataField="Class" HeaderText="Class" />
-                <asp:BoundField DataField="Day" HeaderText="Day" />
-                <asp:BoundField DataField="Subject" HeaderText="Subject" />
-                <asp:BoundField DataField="Teacher" HeaderText="Teacher" />
-                <asp:BoundField DataField="StartTime" HeaderText="Start Time" DataFormatString="{0:HH:mm}" />
-                <asp:BoundField DataField="EndTime" HeaderText="End Time" DataFormatString="{0:HH:mm}" />
-            </Columns>
+        <asp:GridView ID="GridView1" runat="server" CssClass="gridview">
         </asp:GridView>
     </div>
 </asp:Content>

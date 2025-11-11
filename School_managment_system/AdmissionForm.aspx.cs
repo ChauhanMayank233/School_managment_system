@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace School_managment_system
 {
-    public partial class sport : System.Web.UI.Page
+    public partial class AdmissionForm : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

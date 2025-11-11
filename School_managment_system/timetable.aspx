@@ -199,7 +199,7 @@
                     </tr>
                     <tr>
                         <td colspan="4" style="text-align:center;">
-                            <asp:Button ID="btnSave" runat="server" Text="Save Time Table" />
+                            <asp:Button ID="btnSave" runat="server" Text="Save Time Table" OnClick="btnSave_Click" />
                         </td>
                     </tr>
                 </table>

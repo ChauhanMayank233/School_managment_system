@@ -74,6 +74,7 @@
     <Content Include="admindash.aspx" />
     <Content Include="adminlogin.aspx" />
     <Content Include="adminregister.aspx" />
+    <Content Include="AdmissionForm.aspx" />
     <Content Include="App_Data\Add_course.mdf" />
     <Content Include="App_Data\Add_course_log.ldf">
       <DependentUpon>Add_course.mdf</DependentUpon>
@@ -125,7 +126,7 @@
     <Content Include="meeting-details.html" />
     <Content Include="meetings.html" />
     <Content Include="Schoolmanagementschool.aspx" />
-    <Content Include="sport.aspx" />
+    <Content Include="Sports.aspx" />
     <Content Include="timetable.aspx" />
     <Content Include="Userdash.aspx" />
     <Content Include="Userhome.aspx" />
@@ -192,6 +193,13 @@
     <Compile Include="adminregister.aspx.designer.cs">
       <DependentUpon>adminregister.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdmissionForm.aspx.cs">
+      <DependentUpon>AdmissionForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdmissionForm.aspx.designer.cs">
+      <DependentUpon>AdmissionForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -221,12 +229,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="sport.aspx.cs">
-      <DependentUpon>sport.aspx</DependentUpon>
+    <Compile Include="Sports.aspx.cs">
+      <DependentUpon>Sports.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="sport.aspx.designer.cs">
-      <DependentUpon>sport.aspx</DependentUpon>
+    <Compile Include="Sports.aspx.designer.cs">
+      <DependentUpon>Sports.aspx</DependentUpon>
     </Compile>
     <Compile Include="timetable.aspx.cs">
       <DependentUpon>timetable.aspx</DependentUpon>

@@ -47,34 +47,12 @@ https://templatemo.com/tm-569-edu-meeting
                            <ul class="nav">
                                      <li><a href="Userhome.aspx">Home</a></li>
      <li><a href="About.aspx">About</a></li>
-     <li><a href="admission.aspx">Admission</a></li>
+     <li><a href="AdmissionForm.aspx">Admission</a></li>
      
-     <li>
-         <a href="javascript:void(0)">Gallary</a>
-         <%--<ul class="sub-menu">
-             <li><a href="Userhome.aspx">Photo Gallary</a></li>
-             <li><a href="Userhome.aspx"> Video Gallary</a></li>
+     
 
-         </ul>--%>
-                                </li>
-
-
-                                <li class="has-sub">
-                                    <a href="javascript:void(0)">Facilities</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="Userhome.aspx">sports</a></li>
-                                       <%-- <li><a href="Userhome.aspx">Library</a></li>--%>
-                                        <li><a href="Userhome.aspx">smart Class Rooms</a></li>
-
-                                        <li><a href="Userhome.aspx">Computer lab</a></li>
-
-                                        <li><a href="Userhome.aspx">Transpotation</a></li>
-
-                                    </ul>
-                                </li>
-
-                                <li><a href="Course.aspx">Courses</a></li>
-                                <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+      <li><a href="Course.aspx">Courses</a></li>
+                                <li class="scroll-to-section"><a href="Contact.aspx">Contact Us</a></li>
                             </ul>
                             <a class='menu-trigger'>
                                 <span>Menu</span>
